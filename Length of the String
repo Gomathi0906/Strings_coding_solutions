@@ -1,0 +1,18 @@
+import java.util.*;
+
+//Length of the string 
+class Main{
+
+    // using String Length function
+    static void lengthOfString(String name) {
+        int L = name.length();
+        System.out.println("Length of the String: " + L);
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a String: ");
+        String name = sc.nextLine();
+        lengthOfString(name);
+        
+    }
+}
