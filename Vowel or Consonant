@@ -1,6 +1,5 @@
 import java.util.*;
 
-
 // Check whether a character is a vowel or consonant 
 
 class Main{
