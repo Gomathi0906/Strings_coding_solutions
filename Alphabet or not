@@ -1,0 +1,21 @@
+import java.util.*;
+
+
+// Check whether a character is a alphabet or not 
+
+class Main{
+    static void isVowel(char c){
+        if(c>='a' && c<='z' || c>='A' && c<='Z'){
+            System.out.println("It is a Alphabet");
+        }
+        else {
+            System.out.println("It is not a Alphabet");
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        char c = sc.next().charAt(0);
+        isVowel(c);
+    }
+}
